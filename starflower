@@ -1,0 +1,20 @@
+speed 1000
+star = (x) ->
+  pen red
+  for [1..5]
+    fd x
+    rt 144
+pen green 
+rt 30,200
+pen yellow,10
+rt 360,20
+pen white, 0.01
+rt 90
+bk 25
+lt 90
+fd 20
+rt 90
+star()
+jumpto 50,85
+pen white, 0.01
+dot yellow, 40
